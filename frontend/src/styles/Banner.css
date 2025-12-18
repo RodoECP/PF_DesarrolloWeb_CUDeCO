@@ -1,0 +1,29 @@
+.banner {
+  position: relative;
+  background-image: url('../../public/images/banner fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(247, 247, 247, 0.45);
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+}
+
+.banner-logo {
+  width: 150px;
+  height: 150px;
+}
